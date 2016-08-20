@@ -1,2 +1,6 @@
-$THEOS/bin/nicify.pl SettingsKit_preference_bundle.nic/
-cp iphone_SettingsKit_preference_bundle.nic.tar $THEOS/templates/iphone/
+#!/bin/sh
+# Took me a day to realize that nicify.pl will screw over if you don't explicitly run nicify.pl as root
+# Lesson learned...
+cd NICTemplate/SettingsKit.nic/
+su root -c "$THEOS/bin/nicify.pl ./"
+mv -f ./iphone_SettingsKit_preference_bundle.nic.tar $THEOS/templates/SettingsKit.nic.tar
