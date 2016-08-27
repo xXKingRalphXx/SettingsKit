@@ -33,8 +33,8 @@ For example:
                  ];
     }
 
-Make sure to visit the [wiki](https://github.com/mlnlover11/SettingsKit/wiki) for more information, detailed help and descriptions!
-How easy is that?! You can view `SKListControllerProtocol.h` to see all the amazing things you can do with SettingsKit.
+Make sure to visit the [wiki](https://github.com/mlnlover11/SettingsKit/wiki) for more information, detailed help and descriptions!  
+You can view `SKListControllerProtocol.h` to see all the amazing things you can do with SettingsKit.
 
 **Installation:**  
 Ensure $THEOS is set up correctly, and you have the latest SDK.
